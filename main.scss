@@ -792,9 +792,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     .img-5 {
-
-        width: 100% !important;
-
+      width: 100% !important;
     }
   }
 }
@@ -831,11 +829,14 @@ nav {
       }
     }
   }
+  #navbar-open {
+    display: block !important;
+  }
 }
 @media (max-width: 810px) {
   .accordion-1 {
     display: grid;
-    grid-template-columns: 1fr    ;
+    grid-template-columns: 1fr;
   }
   .cards-1 {
     grid-template-columns: 1fr;
@@ -855,7 +856,7 @@ nav {
     grid-row-gap: 10px;
   }
 }
-@media (max-width : 700px ) {
+@media (max-width: 700px) {
   .ex {
     grid-template-columns: 1fr !important;
   }
@@ -874,7 +875,7 @@ nav {
 }
 @media (max-width: 630px) {
   footer {
-    padding: 10px ;
+    padding: 10px;
   }
   .accordion-1 {
     .accordion-item {
@@ -886,24 +887,24 @@ nav {
     .faq {
       padding-bottom: 40px !important ;
       h1 {
-        font-size: 25px  !important;
+        font-size: 25px !important;
       }
     }
   }
-  .card-2{
-    padding-bottom: 50px ;
+  .card-2 {
+    padding-bottom: 50px;
     .img-3 {
       width: 100%;
     }
   }
-  .bring{
+  .bring {
     p {
       font-size: 25px !important;
     }
   }
 }
 @media (max-width: 500px) {
-  .indicators{
+  .indicators {
     grid-template-columns: 1fr;
   }
   .p-res {
@@ -928,10 +929,9 @@ nav {
   .res {
     display: block;
   }
-  .veiw{
+  .veiw {
     display: grid !important;
     grid-template-columns: 1fr !important;
-
   }
   .bring {
     display: block;
