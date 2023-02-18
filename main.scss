@@ -819,7 +819,10 @@ nav {
     }
   }
 }
-@media (max-width: 880px) {
+@media (max-width: 900px) {
+  #navbar-open {
+    display: block;
+  }
   .nav {
     padding: 10px;
     .nav-right {
@@ -969,4 +972,8 @@ nav {
       background-color: grey;
     }
   }
+}
+
+#navbar-open {
+  display: none;
 }

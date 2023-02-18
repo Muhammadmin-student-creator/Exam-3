@@ -744,7 +744,10 @@ nav {
     padding: 10px 20px !important;
   }
 }
-@media (max-width: 880px) {
+@media (max-width: 900px) {
+  #navbar-open {
+    display: block;
+  }
   .nav {
     padding: 10px;
   }
@@ -884,4 +887,8 @@ nav {
 .dark #navbar-open img,
 .dark #navbar-close img {
   background-color: grey;
+}
+
+#navbar-open {
+  display: none;
 }
